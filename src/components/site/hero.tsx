@@ -21,8 +21,8 @@ export function Hero() {
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/55 to-black/35" />
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/25 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20" />
+      <div className="absolute inset-x-0 bottom-0 h-2/5 bg-gradient-to-b from-transparent to-background" />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 pt-28 pb-20 md:grid-cols-2 md:pt-36 md:pb-28">
         <Reveal>
