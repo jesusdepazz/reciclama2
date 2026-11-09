@@ -17,7 +17,7 @@ export function VideoShowcase() {
         <Reveal delay={0.1} className="mx-auto mt-10 max-w-md sm:max-w-lg">
           <video
             className="w-full rounded-3xl border border-border/60 shadow-lg"
-            src="/videos/reciclama-operacion.mp4"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/videos/reciclama-operacion.mp4`}
             controls
             preload="metadata"
             playsInline
